@@ -89,7 +89,7 @@ doctype_js = {"Address" : "public/js/address.js"}
 # }
 doc_events = {
 	"Address": {
-		"validate": "address_mapview.custom.address.get_lat_lon"
+		"validate": "upande.custom.address.get_lat_lon"
 	}
 }
 
