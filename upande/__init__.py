@@ -16,4 +16,4 @@ def get_latitude_longitude(address):
 	response = requests.get(url)
 	if response and response.json():
 		result = response.json()[0] if response.json()[0] else {}
-	return [result.get("lat", ""), result.get("lon", "")]
+		return [result.get("lat", ""), result.get("lon", "")]
