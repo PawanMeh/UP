@@ -1,0 +1,9 @@
+{
+	"js/mapview.desk.min.js": [
+		"public/js/leaflet.js",
+		"public/js/map_view.html"
+	],
+	"js/mapview.desk.min.css": [
+		"public/css/leaflet.css"
+	]
+}

@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include upande *.css
+recursive-include upande *.csv
+recursive-include upande *.html
+recursive-include upande *.ico
+recursive-include upande *.js
+recursive-include upande *.json
+recursive-include upande *.md
+recursive-include upande *.png
+recursive-include upande *.py
+recursive-include upande *.svg
+recursive-include upande *.txt
+recursive-exclude upande *.pyc
