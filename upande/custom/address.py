@@ -4,7 +4,7 @@ import frappe
 def get_lat_lon(doc, method):
 	# get and save latitude and langitude
 	if not doc.latitude or not doc.longitute:
-		from address_mapview import get_latitude_longitude
+		from upande import get_latitude_longitude
 
 		address = ""
 		address_fields = ["address_line1", "address_line2", "city", "state", "country", "pincode"]
