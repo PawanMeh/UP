@@ -167,7 +167,7 @@
   "in_list_view": 0, 
   "in_standard_filter": 0, 
   "insert_after": "latitude", 
-  "label": "Longitute", 
+  "label": "Longitude", 
   "modified": "2017-08-16 23:59:13.946237", 
   "name": "Address-longitute", 
   "no_copy": 0, 
