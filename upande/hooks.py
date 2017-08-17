@@ -87,6 +87,13 @@ doctype_js = {"Address" : "public/js/address.js"}
 # 		"on_trash": "method"
 #	}
 # }
+doc_events = {
+	"Address": {
+		"validate": "address_mapview.custom.address.get_lat_lon"
+	}
+}
+
+fixtures = ['Custom Field']
 
 # Scheduled Tasks
 # ---------------
